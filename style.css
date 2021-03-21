@@ -17,8 +17,8 @@ body {
 	flex-direction: column;
 	
 	position: absolute;
-	left: 40px;
-	bottom: 40px;
+	left: 20px;
+	bottom: 20px;
 }
 
 /* Beatmap */
@@ -30,7 +30,7 @@ body {
 #cover {
 	height: 90px;
 	overflow: hidden;
-	border-radius: 6px;
+	border-radius: 12px;
 	position: relative;
 }
 
