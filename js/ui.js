@@ -146,7 +146,7 @@ const ui = (() => {
 
 	return {
 		hide() {
-			main.classList.add("hidden");
+			//main.classList.add("hidden");
 		},
 
 		show() {
