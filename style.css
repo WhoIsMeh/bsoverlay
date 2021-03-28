@@ -21,6 +21,7 @@ body {
 
 #beatmap {
 	display: flex;
+	class: hidden;
 }
 
 #cover {
