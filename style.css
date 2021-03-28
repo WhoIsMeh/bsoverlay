@@ -177,24 +177,30 @@ body {
 .performance-group .text {
 	display: inline-block;
 
-	font-size: 40px;
+	font-size: 60px;
 	font-weight: 600;
 }
 
 .performance-group .subtext {
 	display: block;
 
-	font-size: 14px;
+	font-size: 24px;
 	font-weight: 600;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	
 	opacity: 0.75;
 }
+.combo-group {
+	position: absolute;
+	
+	left: 20px;
+	bottom: 20px;
+}
 
 #score {
 	display: block;
-	font-size: 34px;
+	font-size: 50px;
 	font-weight: 700;
 	letter-spacing: 2px;
 }
