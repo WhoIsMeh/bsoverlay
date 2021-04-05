@@ -1,13 +1,9 @@
 body {
 	font-family: 'Oswald', sans-serif;
-
 	/* font-style: italic; */
-
 	color: white;
 	/* background: black; */
-
 	margin: 0;
-
 	display: flex;
 	flex-direction: column;
 }
@@ -28,7 +24,9 @@ body {
 	height: 90px;
 	overflow: hidden;
 	border-radius: 12px;
-	position: relative;
+	position: absolute;
+
+	top: 20px;
 }
 
 #image {
@@ -38,14 +36,19 @@ body {
 
 #meta {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 
 	flex-grow: 1;
 	padding: 0 16px;
+	bottom: 0px;
 }
 
 #text {
 	flex-grow: 1;
+
+    position: absolute;
+    top: 20px;
+    left: 130px;
 
 	/* Fix text offset */
 	transform: translate(0, -5px);
@@ -57,12 +60,12 @@ body {
 }
 
 #title {
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: 700;
 }
 
 #subtitle {
-	font-size: 14px;
+	font-size: 21px;
 	font-weight: 400;
 	margin: 0 4px 2px 4px;
 	opacity: 0.75;
@@ -76,22 +79,28 @@ body {
 
 #artist {
 	order: 1;
-	font-size: 16px;
+	font-size: 24px;
 	font-weight: 400;
 }
 
 #map-artist {
 	order: 2;
-	font-size: 10px;
+	font-size: 15px;
 	font-weight: 300;
-	margin: 6px 4px 2px 4px;
+	margin: 9px 0px 2px 4px;
 	opacity: 0.75;
+}
+
+#diff {
+	position: absolute;
+	right: 20px;
+	bottom: 35px;
 }
 
 #difficulty, #bpm, #njs {
 	display: inline-block;
 
-	font-size: 10px;
+	font-size: 20px;
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 3px;
