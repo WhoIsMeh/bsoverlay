@@ -232,7 +232,7 @@ body {
 
 #overlay.hidden #beatmap, #overlay.hidden #performance > * {
 	opacity: 0;
-	transform: translate(0, 15px);
+	/* transform: translate(0, 15px); */
 	transition:
 		opacity var(--hide),
 		transform var(--hide);
